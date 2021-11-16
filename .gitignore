@@ -1,0 +1,21 @@
+.cache
+# -*- mode: gitignore; -*-
+*~
+\#*\#
+.\#*
+
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-v][a-z]
+[._]sw[a-p]
+
+session.*
+.dap-breakpoints
+.lsp-session-v1
+.extension
+
+# elpa packages
+/elpa/
+projectile-bookmarks.eld
+forge-database.sqlite
+transient/history.el
