@@ -10,9 +10,9 @@
   (dap-ui-mode 1)
   (dap-tooltip-mode 1)
   (require 'dap-go)
-  (dap-go-setup)
+  (dap-go-setup 1)
   (require 'dap-node)
-  (dap-node-setup)
+  (dap-node-setup 1)
 )
 
 ; (custom-set-faces
