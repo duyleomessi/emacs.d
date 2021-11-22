@@ -21,4 +21,10 @@
 
 (setq dap-print-io t) 
 
+;; Bind `C-c l d` to `dap-hydra` for easy access
+(general-define-key
+  :keymaps 'lsp-mode-map
+  :prefix lsp-keymap-prefix
+  "d" '(dap-hydra t :wk "debugger"))
+
 (provide 'init-dap-mode)
