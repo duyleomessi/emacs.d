@@ -222,6 +222,8 @@
 (require 'init-treemacs)
 (require 'init-lsp)
 (require 'init-dap-mode)
+(require 'init-docker)
+(require 'init-solidity-mode)
 ;; (require 'init-desktop)
 
 (add-hook 'prog-mode-hook (lambda () (hs-minor-mode t)))
@@ -234,7 +236,7 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
-   '(dap-mode treemacs-projectile treemacs-evil yasnippet evil-nerd-commenter forge evil-magit company-box company typescript-mode lsp-ivy lsp-treemacs lsp-ui visual-fill-column org-bullets which-key use-package rainbow-delimiters magit lsp-mode ivy-rich hydra helpful go-projectile general evil-collection doom-themes doom-modeline counsel-projectile command-log-mode)))
+   '(docker dap-mode treemacs-projectile treemacs-evil yasnippet evil-nerd-commenter forge evil-magit company-box company typescript-mode lsp-ivy lsp-treemacs lsp-ui visual-fill-column org-bullets which-key use-package rainbow-delimiters magit lsp-mode ivy-rich hydra helpful go-projectile general evil-collection doom-themes doom-modeline counsel-projectile command-log-mode)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
